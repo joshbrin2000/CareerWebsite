@@ -22,18 +22,19 @@ body{
 }
 
 .header h1{
-
+    font-size: 34px;
 }
 
 .container2, .container3{
     display: flex;
-    padding: 16px;
+    padding: 0px 16px;
     margin: 0;
 }
 
 .container2{
     flex-direction: row;
     justify-content: space-between;
+    gap: 30px
 }
 
 .info-container{
@@ -44,7 +45,7 @@ body{
 .info-and-links{
     display: flex;
     justify-content: space-between;
-    gap: 100px
+    gap: 50px
 }
 
 .info-and-links h2{
@@ -61,9 +62,10 @@ body{
 .links{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    width: 200px;
+    align-items: center;
+    width: 250px;
     border: 4px solid black;
+    margin: 16px
 }
 
 .links h2{

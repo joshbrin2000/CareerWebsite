@@ -7,18 +7,23 @@ body{
     padding: 0;
 }
 
-.container1{
+.header{
     display: flex;
     justify-content: center;
     background-color: lightgrey;
 }
 
-.container1 h1{
+.header h1{
 
 }
 
-.container2{
+.container2, .container3{
     display: flex;
+    padding: 16px;
+    margin: 0;
+}
+
+.container2{
     flex-direction: row;
     justify-content: space-between;
 }
@@ -26,14 +31,17 @@ body{
 .info-container{
     display: flex;
     flex-direction: column;
-    padding: 16px;
-    margin: 0;
 }
 
 .info-and-links{
     display: flex;
     justify-content: space-between;
     gap: 100px
+}
+
+.info-and-links h2{
+    padding: 0;
+    margin: 0;
 }
 
 .info-and-links p{
@@ -57,4 +65,38 @@ body{
 .links ul{
     padding: 0;
     margin: 0
+}
+
+.education h2{
+    padding-top: 16px;
+    margin: 0;
+}
+
+.education p{
+    font-size: 18px;
+    max-width: 1250px;
+    margin: 16px 8px
+}
+
+.container3{
+    flex-direction: column;
+}
+
+.container3 ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.container3 ul p{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    margin: 8px 0px;
+}
+
+img{
+    width: 15%;
+    align-self: flex-start;
 }

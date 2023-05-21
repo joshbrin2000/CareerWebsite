@@ -34,7 +34,8 @@ body{
 .container2{
     flex-direction: row;
     justify-content: space-between;
-    gap: 30px
+    gap: 30px;
+    margin-top: 16px
 }
 
 .info-container{
@@ -102,6 +103,7 @@ body{
 }
 
 .container3 ul p{
+    font-size: 18px;
     display: flex;
     flex-direction: column;
     padding: 8px;
@@ -109,7 +111,17 @@ body{
 }
 
 .footer{
-    margin-top: auto
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    margin-top: auto;
+}
+
+.footer h2, .footer p{
+    margin: 0;
+    padding: 0
 }
 
 img{
